@@ -1,0 +1,13 @@
+opencv-python>=4.8.1
+deepface>=0.0.79
+tensorflow>=2.13.0
+flask>=2.3.3
+numpy>=1.24.3
+pillow>=10.0.1
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+matplotlib>=3.7.2
+requests>=2.31.0
+librosa>=0.10.0
+numba>=0.56.0
+pyaudio>=0.2.11

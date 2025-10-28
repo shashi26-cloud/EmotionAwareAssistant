@@ -1,0 +1,25 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "neutral": 100.0
+    },
+    "total_detections": 16,
+    "session_timestamp": "2025-10-11T11:10:50.643617"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Focus on systematic learning approaches.",
+      "Ideal time for routine study tasks and review."
+    ],
+    "motivational_quote": "Steady progress builds lasting knowledge.",
+    "recommended_activities": [
+      "Work through practice problems",
+      "Organize your study materials",
+      "Follow your regular study routine"
+    ],
+    "timestamp": "2025-10-11T11:10:50.644660"
+  },
+  "timestamp": "2025-10-11T11:10:50.644660"
+}

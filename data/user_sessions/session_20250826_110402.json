@@ -1,0 +1,29 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "happy",
+    "emotion_percentages": {
+      "sad": 1.3605442176870748,
+      "happy": 91.15646258503402,
+      "angry": 0.6802721088435374,
+      "neutral": 5.442176870748299,
+      "fear": 1.3605442176870748
+    },
+    "total_detections": 147,
+    "session_timestamp": "2025-08-26T11:04:02.807604"
+  },
+  "recommendations": {
+    "emotion": "happy",
+    "study_tips": [
+      "Consider teaching others - you'll retain information better.",
+      "Great mood for learning! Try tackling challenging topics now."
+    ],
+    "motivational_quote": "You're in the perfect mindset for growth!",
+    "recommended_activities": [
+      "Practice active recall techniques",
+      "Start a challenging new topic",
+      "Engage in collaborative learning"
+    ],
+    "timestamp": "2025-08-26T11:04:02.810520"
+  },
+  "timestamp": "2025-08-26T11:04:02.810520"
+}

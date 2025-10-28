@@ -1,0 +1,25 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "emotion_percentages": {
+      "angry": 100.0
+    },
+    "total_detections": 63,
+    "session_timestamp": "2025-09-20T04:18:49.592650"
+  },
+  "recommendations": {
+    "emotion": "angry",
+    "study_tips": [
+      "Channel your energy into focused study sessions.",
+      "Use physical activity as a study break."
+    ],
+    "motivational_quote": "Your intensity can be your greatest asset.",
+    "recommended_activities": [
+      "Do intensive review sessions",
+      "Practice with time constraints",
+      "Take active breaks between study sessions"
+    ],
+    "timestamp": "2025-09-20T04:18:49.593650"
+  },
+  "timestamp": "2025-09-20T04:18:49.593650"
+}

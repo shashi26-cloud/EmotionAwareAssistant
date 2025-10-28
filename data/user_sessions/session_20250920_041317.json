@@ -1,0 +1,25 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "angry",
+    "emotion_percentages": {
+      "angry": 100.0
+    },
+    "total_detections": 27,
+    "session_timestamp": "2025-09-20T04:13:17.812028"
+  },
+  "recommendations": {
+    "emotion": "angry",
+    "study_tips": [
+      "Practice problem-solving to redirect your intensity.",
+      "Use physical activity as a study break."
+    ],
+    "motivational_quote": "Channel this energy into breakthrough moments.",
+    "recommended_activities": [
+      "Take active breaks between study sessions",
+      "Do intensive review sessions",
+      "Practice with time constraints"
+    ],
+    "timestamp": "2025-09-20T04:13:17.814025"
+  },
+  "timestamp": "2025-09-20T04:13:17.814025"
+}

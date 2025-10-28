@@ -1,0 +1,29 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "sad": 4.411764705882353,
+      "neutral": 75.0,
+      "happy": 10.294117647058822,
+      "angry": 7.352941176470589,
+      "fear": 2.941176470588235
+    },
+    "total_detections": 68,
+    "session_timestamp": "2025-10-10T19:57:53.026050"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Perfect state for consistent, steady learning.",
+      "Focus on systematic learning approaches."
+    ],
+    "motivational_quote": "Your calm focus is a powerful learning tool.",
+    "recommended_activities": [
+      "Organize your study materials",
+      "Follow your regular study routine",
+      "Plan your learning schedule"
+    ],
+    "timestamp": "2025-10-10T19:57:53.028034"
+  },
+  "timestamp": "2025-10-10T19:57:53.028034"
+}

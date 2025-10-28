@@ -1,0 +1,27 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "fear": 2.857142857142857,
+      "neutral": 94.28571428571428,
+      "happy": 2.857142857142857
+    },
+    "total_detections": 35,
+    "session_timestamp": "2025-08-26T11:06:08.033666"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Focus on systematic learning approaches.",
+      "Perfect state for consistent, steady learning."
+    ],
+    "motivational_quote": "Balance leads to sustainable success.",
+    "recommended_activities": [
+      "Organize your study materials",
+      "Plan your learning schedule",
+      "Follow your regular study routine"
+    ],
+    "timestamp": "2025-08-26T11:06:08.033666"
+  },
+  "timestamp": "2025-08-26T11:06:08.033666"
+}

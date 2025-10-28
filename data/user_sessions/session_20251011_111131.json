@@ -1,0 +1,27 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "happy": 35.294117647058826,
+      "neutral": 58.82352941176471,
+      "sad": 5.88235294117647
+    },
+    "total_detections": 17,
+    "session_timestamp": "2025-10-11T11:11:31.441988"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Perfect state for consistent, steady learning.",
+      "Ideal time for routine study tasks and review."
+    ],
+    "motivational_quote": "Steady progress builds lasting knowledge.",
+    "recommended_activities": [
+      "Plan your learning schedule",
+      "Work through practice problems",
+      "Organize your study materials"
+    ],
+    "timestamp": "2025-10-11T11:11:31.443959"
+  },
+  "timestamp": "2025-10-11T11:11:31.443959"
+}

@@ -1,0 +1,26 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "neutral": 95.71428571428572,
+      "sad": 4.285714285714286
+    },
+    "total_detections": 70,
+    "session_timestamp": "2025-05-26T17:11:31.672473"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Perfect state for consistent, steady learning.",
+      "Good moment to establish study habits."
+    ],
+    "motivational_quote": "Your calm focus is a powerful learning tool.",
+    "recommended_activities": [
+      "Follow your regular study routine",
+      "Organize your study materials",
+      "Plan your learning schedule"
+    ],
+    "timestamp": "2025-05-26T17:11:31.672473"
+  },
+  "timestamp": "2025-05-26T17:11:31.672473"
+}

@@ -1,0 +1,26 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "happy",
+    "emotion_percentages": {
+      "happy": 76.47058823529412,
+      "neutral": 23.52941176470588
+    },
+    "total_detections": 17,
+    "session_timestamp": "2025-08-01T10:46:30.610680"
+  },
+  "recommendations": {
+    "emotion": "happy",
+    "study_tips": [
+      "Your positive energy is perfect for group study sessions.",
+      "This is an excellent time for creative problem-solving exercises."
+    ],
+    "motivational_quote": "Success is not the key to happiness. Happiness is the key to success!",
+    "recommended_activities": [
+      "Engage in collaborative learning",
+      "Practice active recall techniques",
+      "Start a challenging new topic"
+    ],
+    "timestamp": "2025-08-01T10:46:30.610680"
+  },
+  "timestamp": "2025-08-01T10:46:30.610680"
+}

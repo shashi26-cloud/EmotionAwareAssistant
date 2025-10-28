@@ -1,0 +1,26 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "happy",
+    "emotion_percentages": {
+      "happy": 92.5,
+      "neutral": 7.5
+    },
+    "total_detections": 40,
+    "session_timestamp": "2025-08-01T10:46:00.560133"
+  },
+  "recommendations": {
+    "emotion": "happy",
+    "study_tips": [
+      "Great mood for learning! Try tackling challenging topics now.",
+      "Consider teaching others - you'll retain information better."
+    ],
+    "motivational_quote": "Success is not the key to happiness. Happiness is the key to success!",
+    "recommended_activities": [
+      "Practice active recall techniques",
+      "Create mind maps or visual aids",
+      "Start a challenging new topic"
+    ],
+    "timestamp": "2025-08-01T10:46:00.561133"
+  },
+  "timestamp": "2025-08-01T10:46:00.561133"
+}

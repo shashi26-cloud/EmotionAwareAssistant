@@ -1,0 +1,25 @@
+{
+  "emotion_analysis": {
+    "dominant_emotion": "neutral",
+    "emotion_percentages": {
+      "neutral": 100.0
+    },
+    "total_detections": 26,
+    "session_timestamp": "2025-10-10T19:58:17.823924"
+  },
+  "recommendations": {
+    "emotion": "neutral",
+    "study_tips": [
+      "Ideal time for routine study tasks and review.",
+      "Good moment to establish study habits."
+    ],
+    "motivational_quote": "Balance leads to sustainable success.",
+    "recommended_activities": [
+      "Organize your study materials",
+      "Follow your regular study routine",
+      "Work through practice problems"
+    ],
+    "timestamp": "2025-10-10T19:58:17.823924"
+  },
+  "timestamp": "2025-10-10T19:58:17.823924"
+}
