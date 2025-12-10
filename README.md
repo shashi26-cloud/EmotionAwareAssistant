@@ -1,125 +1,137 @@
-# 🌟 EmotionAware Assistant — AI-Powered Emotion Detection & Study Support
+# Emotion-Aware Study Assistant
 
-A cutting-edge AI-powered Emotion Detection Assistant that analyzes **facial emotions** and **voice tone** to provide personalized study tips, motivation, and productivity support.
+A Flask-based web application that analyzes your emotional state through facial recognition and voice analysis to provide personalized study recommendations.
 
----
+## Features
 
-## 🔰 Badges
+- **Real-time Emotion Detection**: Uses DeepFace and TensorFlow to analyze facial expressions via webcam
+- **Voice Tone Analysis**: Analyzes voice patterns and stress levels through microphone input
+- **Personalized Study Recommendations**: Provides tailored study tips based on detected emotional state
+- **Session History Dashboard**: Track all past analysis sessions with detailed breakdowns
+- **Comprehensive Emotion Breakdown**: Shows percentage distribution of detected emotions
 
----
+## Technologies Used
 
-## 🚀 Features
+- **Backend**: Flask (Python)
+- **Emotion Detection**: DeepFace, TensorFlow, OpenCV
+- **Voice Analysis**: SpeechRecognition, PyAudio, Librosa
+- **Frontend**: HTML, CSS, JavaScript
+- **Data Storage**: JSON files for session history
 
-* 🎭 **Real-time Facial Emotion Detection** using OpenCV & MediaPipe
-* 🎤 **Voice Tone (Sentiment) Analysis** using SpeechRecognition & ML models
-* 🧠 **Smart Recommendation Engine** that gives:
+## Installation
 
-  * Study tips
-  * Motivation quotes
-  * Productivity suggestions
-* 🌐 Web-friendly architecture & simple integration
-* 📁 Clean, modular project structure
-
----
-
-## 🛠️ Tech Stack
-
-**Languages:** Python
-
-**Libraries Used:**
-
-* OpenCV
-* MediaPipe
-* SpeechRecognition
-* NumPy
-* Scikit-learn / TensorFlow (if used for tone analysis)
-
----
-
-## 📂 Project Structure
-
-```
-EmotionAwareAssistant/
-│
-├── data/               # Any datasets, models
-├── models/             # ML models (emotion, tone)
-├── src/
-│   ├── face_detector.py
-│   ├── voice_analyzer.py
-│   ├── recommender.py
-│   ├── main.py
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-
+1. **Clone the repository**
 ```bash
-git clone https://github.com/shashi26-cloud/EmotionAwareAssistant.git
-cd EmotionAwareAssistant
+git clone <your-repo-url>
+cd folder1
 ```
 
-### 2. Install dependencies
+2. **Create and activate virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
 
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+pip install tf-keras  # Required for TensorFlow 2.20+
 ```
 
-### 3. Run the app
+## Usage
 
+### Start the Application
+
+**Option 1: Using batch file**
 ```bash
-python src/main.py
+run.bat
 ```
 
----
+**Option 2: Manual start**
+```bash
+python app.py
+```
 
-## 🧩 How It Works
+The application will be available at `http://localhost:5000`
 
-### **1️⃣ Facial Emotion Detection**
+### Features Usage
 
-* Captures webcam frames
-* Uses MediaPipe for face landmarks
-* Classifies emotion (happy, sad, angry, neutral, etc.)
+1. **Emotion Analysis**
+   - Click "Start Emotion Analysis"
+   - Allow camera access
+   - Look at webcam for 10 seconds
+   - View results and recommendations
 
-### **2️⃣ Voice Tone Analysis**
+2. **Voice Analysis**
+   - Click "Analyze Voice Tone"
+   - Allow microphone access
+   - Speak clearly for 5 seconds
+   - View stress level and analysis
 
-* Captures audio input
-* Converts speech → text
-* Runs sentiment/emotion model on the audio features
+3. **Dashboard**
+   - Click "View Dashboard"
+   - See all past analysis sessions
+   - Quick emotion/voice checks
+   - View recommendations
 
-### **3️⃣ Recommendation Engine**
+## Project Structure
 
-Depending on detected emotion, gives:
+```
+folder1/
+├── app.py                      # Main Flask application
+├── emotion_detector.py         # Emotion detection logic
+├── voice_analyzer.py           # Voice analysis logic
+├── study_recommendations.py    # Recommendation engine
+├── requirements.txt            # Python dependencies
+├── run.bat                     # Quick start script
+├── templates/                  # HTML templates
+│   ├── index.html
+│   └── dashboard.html
+├── static/                     # Static files
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+└── data/
+    └── user_sessions/          # Saved analysis sessions
+```
 
-* Study motivation
-* Productivity hacks
-* Relaxation tips
-* Encouragement messages
+## Dependencies
 
----
+- Flask >= 2.3.3
+- opencv-python >= 4.8.1
+- deepface >= 0.0.79
+- tensorflow >= 2.13.0
+- tf-keras (for TensorFlow 2.20+)
+- SpeechRecognition >= 3.10.0
+- pyaudio >= 0.2.11
+- librosa >= 0.10.0
+- numpy >= 1.24.3
+- pillow >= 10.0.1
+- matplotlib >= 3.7.2
+- requests >= 2.31.0
+- numba >= 0.56.0
 
-## 🌟 Future Enhancements
+## Session Data
 
-* 🌐 Web UI (Flask / React)
-* 📊 User progress tracking
-* 🧠 More emotion classes
-* 🔊 Better voice sentiment model
-* 📱 Mobile app version
+All analysis sessions are automatically saved in `data/user_sessions/` as JSON files containing:
+- Emotion analysis results with percentages
+- Study recommendations
+- Motivational quotes
+- Recommended activities
+- Timestamps
 
----
+## Notes
 
-## 🤝 Contributing
+- First run may take longer as DeepFace downloads required models
+- Requires working webcam for emotion analysis
+- Requires working microphone for voice analysis
+- Chrome/Edge recommended for best camera/microphone support
 
-Pull requests are welcome! For major changes, please open an issue first.
+## Author
 
----
+Shashi Maruthi (shashimaruthibhoosarapu@gmail.com)
 
-## 📜 License
+## License
 
 MIT License © 2025 Shashi Maruthi
